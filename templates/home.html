@@ -1,5 +1,33 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h2>Portfolio photos scrolling past (home.html)</h2>
-    <p>Taken from portfolio model</p>
+    <body>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" ></li>
+                <li data-target="#myCarousel" data-slide-to="2" ></li>
+            </ol>
+            <!-- Wrapper for slides        -->
+            <div class="carousel-inner">
+                {% for portfolio in var_portfolios_list %}
+                    {% if forloop.counter == 1 %}
+                        <div class="item active">
+                    {% else %}
+                        <div class="item">
+                    {% endif %}
+                    <img src="/media/{{ portfolio.image}}" alt="First Slide" width="460" height="345">
+
+                        </div>
+                {% endfor %}
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </body>
+
 {% endblock %}

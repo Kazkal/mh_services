@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
-     <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/home.css" %}">
 </head>
 <body>
 <div class="container">
@@ -17,6 +17,8 @@
            <li><a href="/">Home</a></li>
            <li><a href="/pages/about/">About</a></li>
            <li><a href="#">Contact</a></li>
+           <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+            <li><a href="{% url 'testimonial' %}">Testimonial</a></li>
            <li><a href="{% url 'register' %}">Register</a></li>
            <li><a href="{% url 'login' %}">Log In</a></li>
            <li><a href="{% url 'logout' %}">Log Out</a></li>

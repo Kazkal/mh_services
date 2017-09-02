@@ -17,6 +17,9 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from accounts import views as accounts_views
 from home import views as home_views
+from portfolios import views as portfolio_views
+from django.views.static import serve
+from .settings import MEDIA_ROOT
 
 # url(r'^$', home_views.get_home, name='home'),
 
@@ -28,4 +31,7 @@ urlpatterns = [
     url(r'^login/$', accounts_views.login, name='login'),
     url(r'^logout/$', accounts_views.logout, name='logout'),
     url(r'^pages/', include('django.contrib.flatpages.urls')),
+    url(r'^portfolio/', portfolio_views.get_portfolios, name='portfolio'),
+    url(r'^testimonial/', portfolio_views.get_testimonials, name='testimonial'),
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 ]
