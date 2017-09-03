@@ -18,6 +18,7 @@ from django.contrib import admin
 from accounts import views as accounts_views
 from home import views as home_views
 from portfolios import views as portfolio_views
+from contacts import views as contacts_views
 from django.views.static import serve
 from .settings import MEDIA_ROOT
 
@@ -34,4 +35,5 @@ urlpatterns = [
     url(r'^portfolio/', portfolio_views.get_portfolios, name='portfolio'),
     url(r'^testimonial/', portfolio_views.get_testimonials, name='testimonial'),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
+    url(r'^contactus/$', contacts_views.new_contact, name='contactus'),
 ]

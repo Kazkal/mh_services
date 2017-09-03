@@ -8,6 +8,11 @@ h1 a {
 }
 
 .carousel-inner > .item > img {
-  width:540px;
-  height:360px;
+  width:440px;
+  height:260px;
+}
+body {
+    background: linear-gradient(to right, rgba(0,0,0,0),  grey);
+    background-image: url("images/homepage4.jpg");
+    background-size:cover;
 }

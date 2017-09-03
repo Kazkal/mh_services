@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.flatpages',
     'portfolios',
+    'contacts',
 ]
 
 MIDDLEWARE = [
