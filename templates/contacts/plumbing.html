@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    {%  load bootstrap_tags %}
+    <h2>Plumbing</h2>
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                 <img src={% static "css/images/plumbing.jpg" %} alt="Plumbing" style="width:350px;height:280px">
+            </div>
+            <div class="col-sm-4">
+                 <p>
+                    Our qualified engineers offer advice and solutions for all your plumbing requirements.
+                     No job is too small for our gas safe certified plumbers. Some of the jobs we handle
+                     include leaks, burst pipes, blocked toilets and drainage problems.
+                 </p>
+            </div>
+            <div class="col-sm-1">
+
+            </div>
+            <div class="col-sm-3">
+                <strong>Contact us today</strong>
+                <form method="POST">
+                    {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->
+                    {{ form | as_bootstrap }}     <!--implement the custom package just installed django-forms-bootstrap-->
+                    <button type="submit" class="btn btn-info">Send</button>
+                </form>
+            </div>
+        </div>
+     </div>
+{% endblock %}

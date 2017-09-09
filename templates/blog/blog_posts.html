@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <a class="logo" href="#">
+                    <img src={% static "css/images/tap.jpg" %} >
+                </a>
+            </div>
+            <div class="col-md-8">
+                  {% for post in vposts %}
+                    <div id="panel_blog">
+                        <h1><a href="">{{ post.title }}</a></h1>
+                         <div>
+                            {{ post.created_date }}   in   {{ post.category }}
+                        </div>
+                        <p>{{ post.body}}</p>
+                        <p><button class="btn btn-default">Read More</button></p>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                contact us form
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

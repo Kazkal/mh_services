@@ -1,10 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>Testimonials</h2>
-    {%  for t in var_testimonials_list %}
 
-        <p>{{ t.testimonial}}</p>
-        <p>{{ t.user_id}}</p>
-        <p>{{ t.location}}</p>
-    {% endfor %} }
+    <hr>
+    <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+               <p><strong>What our clients say</strong></p>
+               {%  for t in var_testimonials_list %}
+                   <div class="boxed">
+                       <p>{{ t.testimonial}}</p>
+                       <p> {{ t.user_id}} </p>
+                       {{ t.location}}
+                   </div>
+
+               {% endfor %}
+           </div>
+       </div>
+    </div>
 {% endblock %}

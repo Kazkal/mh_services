@@ -1,9 +1,29 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-    <h2>Thank you for your enquiry. We will be in touch shortly</h2>
-    <p>link to active social media accounts eg twitter and LinkedIn
-    Check some of our work (portfolio)</p>
-    <p>This is what our customer say about us (testimonials)</p>
-    <p>button leadin to blog</p>
+    <div id="parent" class="container" >
+        <div class="row">
 
+        </div>
+        <h2>Thank you for your enquiry. We will be in touch shortly</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                This is what our customers say about us:
+
+                <a href="{% url 'testimonial' %}">
+                    <img src={% static "css/images/testimonials.jpg" %} style="width:250px;height:100px">
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <br>
+                Check out some of our work:
+                <a href="{% url 'portfolio' %}">
+                    <img src={% static "css/images/portfolio.jpg" %}  style="width:250px;height:100px">
+                </a>
+            </div>
+
+        </div>
+    </div>
 {% endblock %}

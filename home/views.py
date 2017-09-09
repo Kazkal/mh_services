@@ -8,3 +8,7 @@ from portfolios.models import Portfolio
 def get_home(request):
     return render(request, 'home.html', {'var_portfolios_list': Portfolio.objects.all()})
 
+
+
+
+
