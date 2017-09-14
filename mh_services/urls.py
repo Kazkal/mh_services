@@ -22,6 +22,9 @@ from contacts import views as contacts_views
 from django.views.static import serve
 from .settings import MEDIA_ROOT
 from blog import views as blog_views
+from paypal.standard.ipn import urls as paypal_urls
+from paypal_store import views as paypal_views
+from payments import views as payments_views
 
 
 # url(r'^$', home_views.get_home, name='home'),
@@ -39,5 +42,10 @@ urlpatterns = [
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'^contactus/$', contacts_views.new_contact, name='contactus'),
     url(r'^plumbing/$', contacts_views.get_plumbing, name='plumbing'),
+    url(r'', include('blog.urls')),
     url(r'^blog/$', blog_views.list_posts, name='blog'),
+    url(r'^a-very-hard-to-guess-url/', include(paypal_urls)),
+    url(r'^paypal-return', paypal_views.payment_return),
+    url(r'^paypal-cancel', paypal_views.payment_cancel),
+    url(r'^payinvoice/', payments_views.get_invoices, name='payinvoice'),
 ]

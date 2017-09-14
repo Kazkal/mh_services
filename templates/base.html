@@ -14,13 +14,12 @@
 
 </head>
 <body>
-    <!--add class to fix nav to top -->
     <!--<a class="navbar-brand" href="#">M H Maintenance Services Ltd</a>-->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img src={% static "css/images/mhlogo.jpg" %}>
+                    <img src={% static "css/images/mhlogo2.jpg" %}>
                 </a>
             </div>
 
@@ -36,11 +35,15 @@
                <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
                <li><a href="/pages/about/">About Us</a></li>
                <li><a href="{% url 'contactus' %}">Contact Us</a></li>
-               <li><a href="{% url 'register' %}">Register</a></li>
-               <li><a href="{% url 'login' %}">Log In</a></li>
-               <li><a href="{% url 'logout' %}">Log Out</a></li>
                <li><a href="{% url 'blog' %}">Blog</a></li>
-           </ul>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'person' %}">Profile</a></li>
+                    <li><a href="{% url 'logout' %}">Log Out</a></li>
+                {% else %}
+                    <li><a href="{% url 'register' %}">Register</a></li>
+                    <li><a href="{% url 'login' %}">Log In</a></li>
+                {% endif %}
+            </ul>
         </div>
 
     </nav>
@@ -51,14 +54,33 @@
     </div>
     <hr>
     <div class="footer">
-       <p style="text-align:center">Copyright 2017 K Kalirai</p>
-          <!-- Add font awesome icons -->
-       <p style="text-align: right">
-            <a href="https://www.facebook.com/pages/M-H-Maintenance-Services/703595743077004?pnref=lhc" class="fa fa-facebook"></a>
-            <a ref="https://twitter.com/Kazkal50?lang=en" class="fa fa-twitter"></a>
-       </p>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>M H Maintenance Services
+                64 Barnehurst Avenue
+                Bexley Heath
+                DA7 6QB
+                London
+                Tel 020 8435 6544
+                Fax 0872 223 5463
+                Email info@mhservices.co.uk</p>
+            </div>
+            <div class="col-sm-4">
+                <p style="text-align:center">Copyright 2017 K Kalirai</p>
+                <a href="https://www.facebook.com/pages/M-H-Maintenance-Services/703595743077004?pnref=lhc" class="fa fa-facebook"></a>
+                <a ref="https://twitter.com/Kazkal50?lang=en" class="fa fa-twitter"></a>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                    <hr>
+                    You are logged in as {{ user.email }}
+                    <li><a href="{% url 'payinvoice' %}">Pay Invoice</a></li>
+                    <li><a href="/">About us</a></li>
+                    <li><a href="/">Blog</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-
 </body>
 
 <!-- script references -->

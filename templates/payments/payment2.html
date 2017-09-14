@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+    <table class="table table-inverse">
+        <thead>
+            <tr>
+                <th>Invoice Number</th>
+                <th>Amount</th>
+                <th>Date Issued</th>
+                <th>invoice.user_id</th>
+                <th>user.email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%  for invoice in invoices_list %}
+                {%  if invoice.user.id == user.id  %}
+                    <tr>
+                        <td>{{ invoice.invoice_number }}</td>
+                        <td>{{ invoice.amount }}</td>
+                        <td>{{ invoice.date_issued }}</td>
+                        <td>{{ invoice.user_id }}</td>
+                        <td>{{ user.email }}</td>
+                    </tr>
+                {%  endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

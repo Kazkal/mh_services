@@ -3,7 +3,7 @@
 {% block content %}
     <div class="row">
         <div class="col-md-9">
-            {% for post in vposts %}
+
                 <div class="row">
                     <hr>
                     <div class="col-md-2">
@@ -14,15 +14,14 @@
                     <div class="col-md-8">
                         <h2>{{ post.title }}</h2>
                         <p>{{ post.created_date }}   in   {{ post.category }}</p>
-                        <p>{{ post.body|truncatewords:35}}</p>
-                        <p><button class="btn btn-sm" onclick="location.href={{ post.id }}">Continue Reading</button></p>
+                        <p>{{ post.body}}</p>
+                        <p><button class="btn btn-sm" onclick="location.href='/blog'">View all</button></p>
                     </div>
                 </div>
-             {% endfor %}
+
         </div>
         <div class="col-md-3">
-            <hr>
-            contact us form
+
         </div>
     </div>
 

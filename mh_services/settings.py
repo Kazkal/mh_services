@@ -53,6 +53,9 @@ INSTALLED_APPS = [
     'portfolios',
     'contacts',
     'blog',
+    'paypal.standard.ipn',
+    'paypal_store',
+    'payments',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +145,8 @@ STATICFILES_DIRS = (
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# PayPal Settings
+SITE_URL = 'http://127.0.0.1:8000'
+PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
+PAYPAL_RECEIVER_EMAIL = '<your paypal merchant email goes here>'
