@@ -1,13 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
     <h2>Portfolio</h2>
-    {%  for record in var_portfolios_list %}
 
-        <p>{{ record.title }}</p>
-
+    <iframe width="460" height="315" src="https://www.youtube.com/embed/AKIwfeUGHT8" frameborder="0" allowfullscreen></iframe>
+    <br>
+     {%  for record in var_portfolios_list %}
             {% if record.image %}
-              <img src="/media/{{ record.image}}">
+              <img src="/media/{{ record.image}}" style="width:350px;height:280px">
           {% endif %}
-
     {% endfor %} }
 {% endblock %}

@@ -1,15 +1,50 @@
+/*borders and padding are included within the width or height of an element. */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial;
-    font-size:15px;
-    padding-top:50px;
+    padding-top:40px;   /*gap above navbar*/
     background: linear-gradient(to right, rgba(0,0,0,0),  grey);
     background-image: url("images/homepage4.jpg");
     background-size:cover;
 }
+/* Landscape tablets and medium desktops */
+@media (min-width: 769px)  {
+    .navbar-nav>li a {
+        line-height: 2em;
+        font-size: 2em;
+    }
+    .nav-pills {
+        line-height: 2em;
+        font-size: 2em;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    .nav-pills {
+        line-height: 1em;
+        font-size: 1em;
+    }
+    .navbar-brand > img {
+        width: 150px;
+        height: 80px;
+    }
+}
+
 
 .carousel-inner > .item > img {
-  width:440px;
-  height:260px;
+  width:600px;
+  height:320px;
+}
+
+
+li a {
+    color:black;
 }
 
 .navbar-default {
@@ -18,26 +53,33 @@ body {
     background-image: none;
     box-shadow: none;
 }
-.navbar-brand{
+/* move logo closer to top*/
+.navbar-brand {
+    margin-top:-20px;
+}
 
-}
-.nav-pills{
-    margin-top: 1px;
-}
-.boxed {
+.navbar-default .navbar-nav > li > a {
+   color: black; /*Change active text color here*/
+    }
+
+
+.testimonialsboxed {
     border: 1px solid ;
     font-family: Lucida Handwriting;
     margin-bottom:30px;
 }
+/*.home_body{
+    padding-top:80px;
+    margin-top:50px;
+}*/
+
 #panel_blog{
     margin-top:25px;
     margin-bottom: 25px;
 
 }
 
-.footer {
-    height:150px;
-    background: #000000;
+footer{
     text-align: center;
 }
 

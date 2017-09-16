@@ -5,29 +5,27 @@
         <div class="row">
             <div class="col-sm-4">
                 <br>
+                <h1>Contact us today:</h1>
                 <br>
-
                 <p>You can also reach us here:</p>
-                <br>
-                <p>M H Maintenance Servicesd</p>
+                <p><strong>M H Maintenance Services</strong></p>
                 <p>64 Barnehurst Avenue</p>
                 <p>Bexley Heath</p>
-                <p>DA7 6QB</p>
                 <p>London</p>
+                <p>DA7 6QB</p>
                 <p>Tel 020 8435 6544</p>
                 <p>Fax 0872 223 5463</p>
                 <p>Email info@mhservices.co.uk</p>
 
             </div>
-             <div class="col-sm-4">
-                 <strong>Contact us today</strong>
+             <div class="col-sm-5">
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->
                     {{ form | as_bootstrap }}     <!--implement the custom package just installed django-forms-bootstrap-->
                     <button type="submit" class="btn btn-info">Send</button>
                 </form>
              </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
 
             </div>
         </div>

@@ -41,11 +41,14 @@ urlpatterns = [
     url(r'^testimonial/', portfolio_views.get_testimonials, name='testimonial'),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'^contactus/$', contacts_views.new_contact, name='contactus'),
-    url(r'^plumbing/$', contacts_views.get_plumbing, name='plumbing'),
+    url(r'^plumbing/$', contacts_views.get_plumbing, name='plumbing'),  #view in contacts app as using contact screen
+    url(r'^heating/$', contacts_views.get_heating, name='heating'),
+    url(r'^electrical/$', contacts_views.get_electrical, name='electrical'),
+    url(r'^bathrooms/$', contacts_views.get_bathrooms, name='bathrooms'),
     url(r'', include('blog.urls')),
     url(r'^blog/$', blog_views.list_posts, name='blog'),
     url(r'^a-very-hard-to-guess-url/', include(paypal_urls)),
     url(r'^paypal-return', paypal_views.payment_return),
     url(r'^paypal-cancel', paypal_views.payment_cancel),
-    url(r'^payinvoice/', payments_views.get_invoices, name='payinvoice'),
+    url(r'^payinvoice/', payments_views.invoice_detail, name='payinvoice'),
 ]

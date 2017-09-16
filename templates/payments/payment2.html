@@ -1,27 +1,46 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-    <table class="table table-inverse">
-        <thead>
-            <tr>
-                <th>Invoice Number</th>
-                <th>Amount</th>
-                <th>Date Issued</th>
-                <th>invoice.user_id</th>
-                <th>user.email</th>
-            </tr>
-        </thead>
-        <tbody>
-            {%  for invoice in invoices_list %}
-                {%  if invoice.user.id == user.id  %}
-                    <tr>
-                        <td>{{ invoice.invoice_number }}</td>
-                        <td>{{ invoice.amount }}</td>
-                        <td>{{ invoice.date_issued }}</td>
-                        <td>{{ invoice.user_id }}</td>
-                        <td>{{ user.email }}</td>
-                    </tr>
-                {%  endif %}
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-7">
+                <h2>Online payments</h2>
+                <h3>Customers can now save time and make invoice payments online via Paypal</h3>
+                <h3>You need to be logged in to access this service.   </h3>
+                <h4>All payments are secure.</h4>
+            </div>
+            <div class="col-sm-8 col-lg-5">
+               <img class="hidden-xs" src={% static "css/images/paypal.png" %}  style="width:200px;height:70px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                 <table class="table table-inverse" id="table1">
+                    <thead>
+                        <tr>
+                            <th>Invoice Number</th>
+                            <th>Amount</th>
+                            <th>Date Issued</th>
+                            <th>Customer</th>
+                            <th>Pay Invoice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ invoice_det.invoice_number }}</td>
+                            <td>{{ invoice_det.amount }}</td>
+                            <td>{{ invoice_det.date_issued }}</td>
+                            <td>{{ invoice_det.user_id }}</td>
+                            <!--<td> user.email }}</td>-->
+                            <td>{{ invoice_det.paypal_form.sandbox }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+    </div>
+
+    <br>
+    <br>
+
 {% endblock %}

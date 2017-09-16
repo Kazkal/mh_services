@@ -1,6 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-    <h1>default.html made with flatpages</h1>
-   <h2>{{ flatpage.title }}</h2>
-   {{ flatpage.content }}
+    <div class="container">
+        <h2>{{ flatpage.title }}</h2>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-5">
+                 <img src={% static "css/images/aboutus.jpg" %} style="width:450px;height:280px">
+            </div>
+            <div class="col-sm-6">
+                <h3>
+                    {{ flatpage.content }}
+                </h3>
+                <br>
+            </div>
+        </div>
+    </div>
 {% endblock %}
