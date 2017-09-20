@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>Portfolio</h2>
-
-    <iframe width="460" height="315" src="https://www.youtube.com/embed/AKIwfeUGHT8" frameborder="0" allowfullscreen></iframe>
-    <br>
-     {%  for record in var_portfolios_list %}
-            {% if record.image %}
-              <img src="/media/{{ record.image}}" style="width:350px;height:280px">
-          {% endif %}
-    {% endfor %} }
+    <div class="container" style="margin-top:20px;">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12" id="gallery">
+                 {%  for record in var_portfolios_list %}
+                        {% if record.image %}
+                            <a href="/media/{{ record.image}}" style="width:400px;height:380px;" >
+                                <img HEIGHT=90px WIDTH=90px src="/media/{{ record.image}}">
+                            </a>
+                        {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 {% endblock %}

@@ -49,7 +49,7 @@ def login(request):
             if user is not None:
                 auth.login(request, user)
                 messages.error(request, "You have successfully logged in. (def login in views.py)")
-                return redirect(reverse('person'))
+                return redirect(reverse('blog'))
             else:
                 form.add_error(None, "Your email or password was not recognised")
 
