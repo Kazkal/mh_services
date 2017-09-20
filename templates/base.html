@@ -66,7 +66,6 @@
                 <br>Fax 0872 223 5463
                 <br>Email info@mhservices.co.uk
             </div>
-            <br>
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <p>Copyright 2017 K Kalirai</p>
                 <a href="https://www.facebook.com/pages/M-H-Maintenance-Services/703595743077004?pnref=lhc" class="fa fa-facebook-square" style="font-size:36px"></a>
@@ -75,12 +74,11 @@
                 <a href="#" class="fa fa-pinterest-square" style="font-size:36px"></a>
 
             </div>
-            <br>
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <ul>
                     <li><a href="{% url 'payinvoice' %}">Pay Invoice</a></li>
                     <li><a href="/pages/about/">About Us</a></li>
-                    <li><a href="/">Blog</a></li>
+                    <li><a href="{% url 'blog' %}">Blog</a></li>
                     <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
                     {% if user.is_authenticated %}
                         <li><a href="{% url 'logout' %}">Log Out</a></li>
@@ -92,7 +90,6 @@
                         <br>You are logged in as {{ user.email }}
                     {% endif %}
                 </ul>
-                <br>
             </div>
         </div>
     </footer>

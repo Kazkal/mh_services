@@ -1,20 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
-
-    <hr>
-    <div class="container">
+    <div class="container" style="margin-top:40px;">
        <div class="row">
-           <div class="col-sm-8">
-               <p><strong>What our clients say</strong></p>
-               {%  for t in var_testimonials_list %}
+            <div class="col-sm-3 col-lg-3">
+              <p><strong>What our clients say</strong></p>
+            </div>
+           <div class="col-sm-9 col-lg-9">
+                {%  for t in var_testimonials_list %}
                    <div class="testimonialsboxed">
                        <p>{{ t.testimonial}}</p>
                        <p> {{ t.user_id}} </p>
                        {{ t.location}}
                    </div>
-
                {% endfor %}
            </div>
        </div>
     </div>
 {% endblock %}
+<!--font-family: 'Droid Serif', serif;
+    font-size: 12px-->

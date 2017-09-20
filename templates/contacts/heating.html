@@ -9,18 +9,18 @@
                  <img class="hidden-xs" src={% static "css/images/heating2.jpg" %} alt="Heating" style="width:350px;height:280px">
             </div>
             <div class="col-sm-4">
-                 <h3>Call M H Maintenance Services to get your heating and hot water working quickly and efficiently again.
-                     We are a Gas Safe Register accredited company in addition to being accredited by Corgi for energy efficiency and plumbing.
-                     <br>
-                     <br>
-                     Our engineers have the skills, knowledge and experience for both installations and servicing, maintenance
-                     and repair work, both domestic and commercial. Call us today for a quote. </h3>
-            </div>
+                 Call M H Maintenance Services to get your heating and hot water working quickly and efficiently again.
+                 We are a Gas Safe Register accredited company in addition to being accredited by Corgi for energy efficiency and plumbing.
+                 <br>
+                 <br>
+                 Our engineers have the skills, knowledge and experience for both installations and servicing, maintenance
+                 and repair work, both domestic and commercial. Call us today for a quote.
+        </div>
             <div class="col-sm-1">
 
             </div>
             <div class="col-sm-3">
-                <strong>Contact us today</strong>
+                <strong>Contact us today:</strong>
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->
                     {{ form | as_bootstrap }}     <!--implement the custom package just installed django-forms-bootstrap-->

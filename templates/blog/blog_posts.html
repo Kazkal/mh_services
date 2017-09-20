@@ -1,28 +1,21 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-    <div class="row">
-        <div class="col-md-9">
-            {% for post in vposts %}
-                <div class="row">
-                    <hr>
-                    <div class="col-md-2">
-                        <a class="logo" href="#">
-                            <img src={% static "css/images/tap2.jpg" %}>
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <h2>{{ post.title }}</h2>
-                        <p>{{ post.created_date }}   in   {{ post.category }}</p>
-                        <p>{{ post.body|truncatewords:35}}</p>
-                        <p><button class="btn btn-sm" onclick="location.href={{ post.id }}">Continue Reading</button></p>
-                    </div>
-                </div>
-             {% endfor %}
-        </div>
-        <div class="col-md-3">
-            <hr>
-            contact us form
+    <h2>Blog</h2>
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-8" id="blog_body">
+                {% for post in vposts %}
+                    <h4>{{ post.title }}</h4>
+                    <p>{{ post.created_date }}   in   {{ post.category }}</p>
+                    <p >{{ post.body|truncatewords:25 }}</p>
+                    <p><button class="btn btn-sm" onclick="location.href={{ post.id }}">Continue Reading</button></p>
+                 {% endfor %}
+            </div>
+            <div class="col-lg-4">
+                <hr>
+                put contact us form here?
+            </div>
         </div>
     </div>
 

@@ -7,6 +7,6 @@ class Contact(models.Model):
     full_name = models.CharField(max_length=50)
     email = models.CharField(max_length=50)
     enquiry = models.TextField()
-    postcode=models.CharField(max_length=10)
+    #postcode=models.CharField(max_length=10)
     date_entered=models.DateTimeField(auto_now_add=True)
 

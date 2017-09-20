@@ -3,22 +3,21 @@
     {% load bootstrap_tags %}
      <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-10 col-lg-4" >
                 <br>
-                <h1>Contact us today:</h1>
                 <br>
-                <p>You can also reach us here:</p>
-                <p><strong>M H Maintenance Services</strong></p>
-                <p>64 Barnehurst Avenue</p>
-                <p>Bexley Heath</p>
-                <p>London</p>
-                <p>DA7 6QB</p>
-                <p>Tel 020 8435 6544</p>
-                <p>Fax 0872 223 5463</p>
-                <p>Email info@mhservices.co.uk</p>
-
+                You can also reach us here:<br>
+                M H Maintenance Services<br>
+                64 Barnehurst Avenue<br>
+                Bexley Heath<br>
+                London<br>
+                DA7 6QB<br>
+                Tel 020 8435 6544<br>
+                Fax 0872 223 5463<br>
+                Email info@mhservices.co.uk
             </div>
-             <div class="col-sm-5">
+             <div class="col-sm-10 col-lg-5">
+                 <h1>Contact us today:</h1>
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->
                     {{ form | as_bootstrap }}     <!--implement the custom package just installed django-forms-bootstrap-->

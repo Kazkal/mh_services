@@ -11,18 +11,23 @@ body {
     background-image: url("images/homepage4.jpg");
     background-size:cover;
 }
+#blog_body{
+    font-size:0.75em;
+}
 /* Landscape tablets and medium desktops */
 @media (min-width: 769px)  {
     .navbar-nav>li a {
         line-height: 2em;
         font-size: 2em;
     }
-    .nav-pills {
-        line-height: 2em;
-        font-size: 2em;
+    .nav-pills>li a {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+    body > div{
+        font-size:1.5em;
     }
 }
-
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
@@ -34,6 +39,10 @@ body {
         width: 150px;
         height: 80px;
     }
+    #about > img {
+        width:50%;
+        height:50%;
+    }
 }
 
 
@@ -41,7 +50,6 @@ body {
   width:600px;
   height:320px;
 }
-
 
 li a {
     color:black;
@@ -64,19 +72,13 @@ li a {
 
 
 .testimonialsboxed {
-    border: 1px solid ;
     font-family: Lucida Handwriting;
     margin-bottom:30px;
 }
-/*.home_body{
-    padding-top:80px;
-    margin-top:50px;
-}*/
 
 #panel_blog{
     margin-top:25px;
     margin-bottom: 25px;
-
 }
 
 footer{

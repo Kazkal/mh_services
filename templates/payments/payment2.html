@@ -1,46 +1,25 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-lg-7">
-                <h2>Online payments</h2>
-                <h3>Customers can now save time and make invoice payments online via Paypal</h3>
-                <h3>You need to be logged in to access this service.   </h3>
-                <h4>All payments are secure.</h4>
-            </div>
-            <div class="col-sm-8 col-lg-5">
-               <img class="hidden-xs" src={% static "css/images/paypal.png" %}  style="width:200px;height:70px">
+    <div class="container" >
+        <div class="row" style="margin-top:20px;">
+            <div class="col-sm-12   col-lg-12">
+                <br>
+                Online payments. (You need to be logged in to access this service.)<br>
+                Customers can now save time and make invoice payments online via Paypal<br>
+                All payments are secure.
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                 <table class="table table-inverse" id="table1">
-                    <thead>
-                        <tr>
-                            <th>Invoice Number</th>
-                            <th>Amount</th>
-                            <th>Date Issued</th>
-                            <th>Customer</th>
-                            <th>Pay Invoice</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>{{ invoice_det.invoice_number }}</td>
-                            <td>{{ invoice_det.amount }}</td>
-                            <td>{{ invoice_det.date_issued }}</td>
-                            <td>{{ invoice_det.user_id }}</td>
-                            <!--<td> user.email }}</td>-->
-                            <td>{{ invoice_det.paypal_form.sandbox }}</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-sm-12 col-lg-6">
+                <br>
+                Invoice Number:     <strong>{{ invoice_det.invoice_number }}</strong><br>
+                Amount (£):        <strong>{{ invoice_det.amount }}</strong><br>
+                Date Issued:     <strong>{{ invoice_det.date_issued }}</strong><br>
+                Customer:        <strong>{{ invoice_det.user_id }}</strong><br>
+                Pay Invoice:  {{ invoice_det.paypal_form.sandbox }}
             </div>
-
-    </div>
-
+        </div>
     <br>
     <br>
-
 {% endblock %}

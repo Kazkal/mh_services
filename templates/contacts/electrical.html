@@ -11,19 +11,19 @@
                  <img class="hidden-xs" src={% static "css/images/electrical.jpg" %} style="width:350px;height:280px">
             </div>
             <div class="col-sm-4">
-                 <p>
-                    Our professional electricians have the experience to take care of your electrical installation or electrical repair,
-                     no job is too big or too small for our team.
-                     Our electrical services include fault finding, re-wiring, safety checks and new installations.
-                     By law, you have to be fully qualified as an electrician to carry out any major household electrical maintenance.
-                     So don’t leave it to chance, or risk your family’s safety – our electricians are all fully qualified.
-                 </p>
-            </div>
+                Our professional electricians have the experience to take care of your electrical installation or electrical repair,
+                 no job is too big or too small for our team.
+                 <br>
+                 <br>
+                 Our electrical services include fault finding, re-wiring, safety checks and new installations.
+                 By law, you have to be fully qualified as an electrician to carry out any major household electrical maintenance.
+                 So don’t leave it to chance, or risk your family’s safety – our electricians are all fully qualified.
+        </div>
             <div class="col-sm-1">
 
             </div>
             <div class="col-sm-3">
-                <strong>Contact us today</strong>
+                <strong>Contact us today:</strong>
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->
                     {{ form | as_bootstrap }}     <!--implement the custom package just installed django-forms-bootstrap-->
