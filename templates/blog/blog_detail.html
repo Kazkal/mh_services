@@ -6,7 +6,7 @@
         <div class="col-lg-8" id="blog_body">
             <h4>{{ post.title }}</h4>
             <p>{{ post.created_date }}   in   {{ post.category }}</p>
-            <p>{{ post.body}}</p>
+            <p>{{ post.body|linebreaks}}</p>
             <p><button class="btn btn-sm" onclick="location.href='/blog'">View all</button></p>
         </div>
     </div>

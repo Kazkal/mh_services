@@ -1,4 +1,4 @@
-*borders and padding are included within the width or height of an element. */
+/*borders and padding are included within the width or height of an element. */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -30,7 +30,7 @@ body {
 }
 
 #blog_body{
-    font-size:0.75em;
+    font-size:0.6em;
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 769px) {

@@ -1,19 +1,28 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-    <h2>Blog</h2>
-    <div class="container" >
+
+    <div class="container">
+    <h5>Blog</h5>
         <div class="row">
-            <div class="col-lg-8" id="blog_body">
+            <div class="col-sm-12 col-md-6" id="blog_body">
                 {% for post in vposts %}
-                    <h4>{{ post.title }}</h4>
-                    <p>{{ post.created_date }}   in   {{ post.category }}</p>
-                    <p >{{ post.body|truncatewords:25 }}</p>
-                    <p><button class="btn btn-sm" onclick="location.href={{ post.id }}">Continue Reading</button></p>
+                    <h6>{{ post.title }}</h6>
+                    <p style="font-size:0.75em;">{{ post.created_date }}   in   {{ post.category }}</p>
+                    <p style="font-size:0.85em;">{{ post.body|truncatewords:50 }}</p>
+                    <p><button class="btn btn-xs" onclick="location.href={{ post.id }}">Continue Reading</button></p>
                  {% endfor %}
+            <br>
             </div>
-            <div class="col-lg-4">
-                pin blogs here
+            <div class="col-sm-12 col-md-6">
+                <img src={% static "css/images/pinned.jpg" %}>
+                {% for post in vposts %}
+                    {% if post.pinned %}
+                        <h4>{{ post.title }}</h4>
+                            <p style="font-size:0.65em;">{{ post.created_date }}   in   {{ post.category }}</p>
+                            <p style="font-size:0.85em;">{{  post.body|linebreaks}} </p>
+                    {% endif %}
+                 {% endfor %}
             </div>
         </div>
     </div>

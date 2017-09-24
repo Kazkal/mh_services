@@ -12,6 +12,8 @@ class Post(models.Model):
     category = models.ForeignKey('blog.Category')
     # link a new blog post to a registered user,
     author = models.ForeignKey(settings.AUTH_USER_MODEL)
+    pinned=models.BooleanField(default=False)
+
 
 class Category(models.Model):
     title = models.CharField(max_length=100, db_index=True)

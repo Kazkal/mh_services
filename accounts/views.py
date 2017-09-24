@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 from django.contrib import messages, auth
 from django.core.urlresolvers import reverse
 from django.shortcuts import render, redirect
 from django.template.context_processors import csrf
 from accounts.forms import UserRegistrationForm, UserLoginForm
 from django.contrib.auth.decorators import login_required
-
 
 def register(request):
     if request.method == 'POST':
@@ -19,7 +17,7 @@ def register(request):
 
             if user:
                 messages.success(request, "You have successfully registered")
-                return redirect(reverse('person'))
+                return redirect(reverse('home'))
 
             else:
                 messages.error(request, "unable to log you in at this time!")
@@ -48,7 +46,7 @@ def login(request):
 
             if user is not None:
                 auth.login(request, user)
-                messages.error(request, "You have successfully logged in. (def login in views.py)")
+                messages.error(request, "You have successfully logged in.")
                 return redirect(reverse('blog'))
             else:
                 form.add_error(None, "Your email or password was not recognised")

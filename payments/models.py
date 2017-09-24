@@ -17,7 +17,7 @@ class Invoice(models.Model):
         paypal_dict = {
             "business": settings.PAYPAL_RECEIVER_EMAIL,
             "amount": self.amount,
-            "currency": "EUR",
+            "currency": "GBP",
             "item_name": self.user_id,
             "invoice": self.invoice_number,
             "notify_url": settings.PAYPAL_NOTIFY_URL,

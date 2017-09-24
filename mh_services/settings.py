@@ -152,3 +152,4 @@ PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'admin@mhservices.co.uk'
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
