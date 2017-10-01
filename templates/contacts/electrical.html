@@ -5,20 +5,22 @@
      <div class="container">
 
         <div class="row">
-            <div class="col-sm-10 col-lg-5">
+            <div class="col-sm-10 col-md-6">
                 <h2>Electrical</h2>
                  <img class="hidden-xs" src={% static "css/images/electrical.jpg" %} >
             </div>
-            <div class="col-sm-10 col-lg-3">
+            <div class="col-sm-10 col-md-3" style="margin-top:80px;">
                 <br>
                  Our electrical services include fault finding, re-wiring, safety checks and new installations.
                  By law, you have to be fully qualified as an electrician to carry out any major household electrical maintenance.
-                 So don’t leave it to chance, or risk your family’s safety – our electricians are all fully qualified.
                  <br>
                 <br>
-                Ring us for a quote today.
+                So don’t leave it to chance, or risk your family’s safety – our electricians are all fully qualified.
+                 <br>
+                <br>
+                Get in touch.
             </div>
-            <div class="col-sm-10 col-lg-3">
+            <div class="col-sm-10 col-md-3">
                 <strong>Contact us today:</strong>
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->

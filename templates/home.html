@@ -7,7 +7,7 @@
                  ...
             </div>
              <div class="col-sm-10 col-lg-5">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-toggle="tooltip" title="Projects completed">
                     <!-- Wrapper for slides        -->
                     <div class="carousel-inner">
                         {% for portfolio in var_portfolios_list %}
@@ -37,7 +37,7 @@
             </div>
              <div class="col-sm-10 col-md-5">
                  <nav>
-                       <ul  class="nav nav-pills nav-justified">
+                       <ul class="nav nav-pills nav-justified" data-toggle="tooltip" title="Services">
                             <li><a href="{% url 'plumbing' %}">Plumbing</a></li>
                            <li><a href="{% url 'heating' %}">Heating</a></li>
                            <li><a href="{% url 'electrical' %}">Electrical</a></li>
@@ -47,5 +47,4 @@
              </div>
         </div>
     </div>
-
 {% endblock %}

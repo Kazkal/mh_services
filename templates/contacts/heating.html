@@ -5,18 +5,20 @@
      <div class="container">
         <h2>Heating</h2>
         <div class="row">
-            <div class="col-sm-10 col-lg-5">
+            <div class="col-sm-10 col-md-6">
                  <img class="hidden-xs" src={% static "css/images/heating2.jpg" %}>
             </div>
-            <div class="col-sm-10 col-lg-3">
+            <div class="col-sm-10 col-md-3">
                  Call M H Maintenance Services to get your heating and hot water working quickly and efficiently again.
                  We are a Gas Safe Register accredited company in addition to being accredited by Corgi for energy efficiency and plumbing.
                  <br>
                  <br>
                  Our engineers have the skills, knowledge and experience for both installations and servicing, maintenance
                  and repair work, both domestic and commercial.
+                <br>
+                <p>Get in touch<p>
             </div>
-            <div class="col-sm-10 col-lg-3">
+            <div class="col-sm-10 col-md-3">
                 <strong>Contact us today:</strong>
                 <form method="POST">
                     {% csrf_token %}    <!--security measure to prevent Cross Site Request Forgery.-->

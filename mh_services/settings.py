@@ -35,8 +35,7 @@ AUTHENTICATION_BACKENDS=(
 )
 
 # Application definition
-#id 2 is example.com, 3 is localhost in table django_site
-SITE_ID=3
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -56,6 +55,7 @@ INSTALLED_APPS = [
     'paypal.standard.ipn',
     'paypal_store',
     'payments',
+    'disqus',
 ]
 
 MIDDLEWARE = [
@@ -152,4 +152,8 @@ PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'admin@mhservices.co.uk'
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+#id 2 is example.com, 3 is localhost in table django_site
+DISQUS_WEBSITE_SHORTNAME='mybootcampblog'
+SITE_ID = 3
 

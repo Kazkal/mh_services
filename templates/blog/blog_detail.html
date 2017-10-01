@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+
 {% block content %}
     <h2>Blog</h2>
     <div class="row">
@@ -8,6 +9,9 @@
             <p>{{ post.created_date }}   in   {{ post.category }}</p>
             <p>{{ post.body|linebreaks}}</p>
             <p><button class="btn btn-sm" onclick="location.href='/blog'">View all</button></p>
+            {% load disqus_tags %}
+            {% set_disqus_title post.title %}
+            {% disqus_show_comments %}
         </div>
     </div>
 {% endblock %}
