@@ -1,0 +1,161 @@
+[
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Top 3 common plumbing problems \u2013 and the solutions",
+        "body": "Like car repairs, plumbing is a service that can often save you money in the long-term, especially if you catch problems early.",
+        "image": "images/ciphe.jpg",
+        "created_date": "2017-09-07",
+        "category": 7,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Over 12 million households at risk of carbon monoxide poisoning",
+        "body": "Ahead of this year\u2019s Gas Safety Week (September 18-24), Gas Safe Register and the Fire and Rescue Service is issuing a safety alert to raise awareness about the number of homes that do not have a carbon monoxide (CO) alarm to help defend themselves against CO poisoning, which can be fatal.\r\n\r\nNearly half (46%) of the nation\u2019s homes currently don\u2019t have a CO alarm, which could leave more than 12 million households across the UK at risk from CO poisoning.\r\n\r\nWhen it comes to staying safe at home, three-quarters of people agree that they worry about safety, and spend time ensuring that their home is as safe as it can be, but British families are more likely to fit a smoke alarm (83%), double glazing (76%) or window locks (70%), than have a CO alarm (54%). CO poisoning is known as the \u2018silent killer\u2019 as you cannot see, taste, or smell it. A CO alarm can alert you to the presence of CO, which you may not be aware of.\r\n\r\nJonathan Samuel, chief executive, said: \u201cWe are encouraging families to ask a Gas Safe registered engineer to check that their gas appliances are safe and sound as a first line of defence from potential CO poisoning. Worryingly, nearly half (46%) of the people we asked didn\u2019t know the signs of dangerous gas appliances \u2013 a key cause of CO poisoning. The signs that your gas appliance isn\u2019t working safely are: a lazy yellow flame instead of a crisp blue flame, soot or staining on or around the appliance, or excess condensation in the room.\u201d\r\n\r\nGary Oakford, Carbon Monoxide Lead for Prevention Co-ordination Committee, The National Fire Chiefs Council, said: \u201cThe National Fire Chiefs Council supports Gas Safety Week 2017 and its aim to raise awareness of gas safety. We have seen the immense value of improving public safety by raising people\u2019s awareness of fire safety and having working smoke alarms in their homes.\r\n\r\n\u201cIt is for this reason that we welcome the work by Gas Safe Register to ensure that the same approach is adopted for those with gas appliances in their homes by having working CO detectors and getting an annual safety check by a Gas Safe registered engineer.\u201d",
+        "image": "images/carbon_monoxide.jpg",
+        "created_date": "2017-09-05",
+        "category": 7,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "When do you need an Electrician?",
+        "body": "But there are a number of extremely common plumbing problems that you may be able to deal with yourself. And if you can\u2019t, don\u2019t worry: your local plumber is always on hand to help you out. These common problems may not cost as much to fix as you thought.",
+        "image": "",
+        "created_date": "2017-09-06",
+        "category": 6,
+        "author": 2,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "5 things to remember when hiring an electrician",
+        "body": "Electrical work is tricky and dangerous to figure out on your own. The slightest error can lead to a short circuit or fire, so it\u2019s a good idea to hire an electrician, even if it\u2019s for the smallest of jobs:\r\n1. Ask to see proof of their qualification\r\n2. Check for a governing body.\r\nMake sure they are registered with a governing body like NAPIT or NICEIC. You can do this by simply going onto the relevant websites and entering their name to see if they are listed there. You can also check on Registered Competent Person Electrical.\r\n\r\n3. Read previous, relevant reviews\r\n\r\nRead through their MyBuilder reviews. Being positively reviewed is not enough in and of itself\u2014you need to check if they are relevant to the job you need done. Read through previous reviews to confirm that your potential electrician has been well-reviewed for jobs similar to yours. Check also for reliability and punctuality. Customers often leave detailed comments and feedback\u2014make use of these!\r\n\r\n4. Agree to a quote\r\n\r\nBefore you hire, make sure you are agreeing to a quote and not a rough estimate. The quote should include details about the job, concrete prices, and a payment schedule that outlines a deposit as well as a payment calendar. The schedule is particularly important, since it is what avoids misunderstandings down the line.\r\n\r\n5. Don\u2019t pick the cheapest option\r\n\r\nWhen considering different quotes from your shortlisted electricians, don\u2019t pick the cheapest one. Read through the quote carefully to ensure that you end up picking the best person for your job. Anything that sounds too good to be true usually is.\r\n\r\nFinally, once your job has been completed, get a certificate issued for it. If your electrician doesn\u2019t agree to this, that\u2019s a major red flag and you should reconsider hiring them.",
+        "image": "",
+        "created_date": "2017-10-02",
+        "category": 6,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "Choosing the right bathroom fitter",
+        "body": "Leaking taps",
+        "image": "",
+        "created_date": "2017-09-04",
+        "category": 4,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "title": "Choosing the right heating engineer",
+        "body": "When choosing the right heating engineer, there are some key issues you need to think about. \r\nChoose someone with lots of specific experience\r\n1. If your job involves gas, check whether the tradesman is Gas Safe-registered. If your heating job involves gas, the tradesman who works on it is legally required to be on the Gas Safe Register. \r\n2. Get a detailed quote from each tradesman you\u2019re considering. Be wary of a tradesman who only gives you a quote over the phone - it\u2019s unlikely they\u2019ll be able to be accurate without seeing the situation in person.\r\n3. Ask each tradesman to explain what they plan to do\r\n4. Ask about professional qualifications and accreditation\r\n5. Discuss materials before work starts",
+        "image": "",
+        "created_date": "2017-09-10",
+        "category": 5,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "title": "Choosing the right handyman",
+        "body": "This is a bugbear of many households. A leaking tap can be annoying, yes. But it can also lead to more problems such as water damage or escalated water bills.",
+        "image": "",
+        "created_date": "2017-09-04",
+        "category": 2,
+        "author": 2,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+        "title": "Cold weather brings warning of rise in dodgy plumbers",
+        "body": "The number of callouts for boiler-related problems increased by 72 per cent from the first week of September to the first week of October, the AA reported this week.\nBut those who turn to tradespeople in an emergency are risking making things worse by not using qualified or registered plumbers. New research shows that two-thirds of people choose a plumber on cost, without worrying if they are registered with an approved contractors' scheme or have any professional credentials.\n\n\"Not using a properly qualified plumber is not only dangerous, it's a false economy and could end up costing the homeowner thousands of pounds and a lot of hassle to put right,\" warned Kevin Wellman from WaterSafe, a new national register of recognised plumbers.\n\nIt's estimated that Britons have been forced to stump up \u00a32.6bn to pay for work to rectify botched plumbing jobs.\n\n\"Furthermore, there are the safety implications. Water safety in the home is of paramount importance, and by using a dodgy tradesman, homeowners are not considering the risk that contaminated water poses,\" said Mr Wellman.\n\nThe WaterSafe Installers' Scheme is a national register, accreditation body and online directory that can put you in touch with accredited plumbers in your area. For further information visit www.watersafe.org.uk.",
+        "image": "",
+        "created_date": "2017-09-10",
+        "category": 2,
+        "author": 2,
+        "pinned": true
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+        "title": "CIPHE and Baxi join forces with law firm",
+        "body": "Fortunately, many leaking taps are down to the same old problem of a worn washer. If you are feeling like taking the job on yourself, you can research how to dismantle your tap and replace the washer yourself. But remember that not all washers are the same and you may have to quiz your local DIY shop to find the right size.",
+        "image": "images/ciphe.jpg",
+        "created_date": "2017-09-07",
+        "category": 7,
+        "author": 1,
+        "pinned": false
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 1,
+    "fields": {
+        "title": "Company News"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 2,
+    "fields": {
+        "title": "Plumbing"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 4,
+    "fields": {
+        "title": "Bathrooms"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 5,
+    "fields": {
+        "title": "Heating"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 6,
+    "fields": {
+        "title": "Electrical"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 7,
+    "fields": {
+        "title": "Industry News"
+    }
+}
+]

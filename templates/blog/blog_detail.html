@@ -4,7 +4,7 @@
 {% block content %}
     <h2>Blog</h2>
     <div class="row">
-        <div class="col-lg-8" id="blog_body">
+        <div class=" col-sm-10 col-md-7" id="blog_body">
             <h4>{{ post.title }}</h4>
             <p>{{ post.created_date }}   in   {{ post.category }}</p>
             <p>{{ post.body|linebreaks}}</p>
@@ -12,6 +12,11 @@
             {% load disqus_tags %}
             {% set_disqus_title post.title %}
             {% disqus_show_comments %}
+        </div>
+        <div class=" col-sm-10 col-md-5" id="blog_body">
+            {% if post.image %}
+                <img class="hidden-xs" src="/media/{{ post.image}}">
+            {% endif %}
         </div>
     </div>
 {% endblock %}

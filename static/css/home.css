@@ -10,7 +10,9 @@ body {
     font-family: Arial;
     padding-top:20px;   /*gap above navbar*/
     margin:0;
-    font-size:1.25em;
+    font-size:1.525em;
+    display: flex;
+    flex-direction: column;
 }
 html{
     height:100%;
@@ -21,16 +23,12 @@ html{
     height:290px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
 .content {
   flex: 1 0 auto;
 }
 
 #blog_body{
-    font-size:0.8em;
+    font-size:0.9em;
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 769px) {
@@ -41,11 +39,11 @@ body {
 
     .nav-pills > li a {
         line-height: 1.5em;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     body > div {
-        font-size: 1.10em;
+        /*font-size: 1.10em;*/
     }
 }
 

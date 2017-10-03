@@ -3,7 +3,7 @@
 {% block content %}
     <div class="container" >
         <div class="row" style="margin-top:20px;">
-            <div class="col-sm-12   col-lg-12">
+            <div class="col-sm-12 col-md-12">
                 <br>
                 Online payments. (You need to be logged in to access this service.)<br>
                 Customers can now save time and make invoice payments online via Paypal<br>
@@ -11,13 +11,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-md-6">
                 <br>
-                Invoice Number:     <strong>{{ invoice_det.invoice_number }}</strong><br>
-                Amount (£):        <strong>{{ invoice_det.amount }}</strong><br>
-                Date Issued:     <strong>{{ invoice_det.date_issued }}</strong><br>
-                Customer:        <strong>{{ invoice_det.user_id }}</strong><br>
-                Pay Invoice:  {{ invoice_det.paypal_form.sandbox }}
+                <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                        Invoice Number:  <br>
+                        Amount (£):      <br>
+                        Date Issued:     <br>
+                        Customer:        <br>
+                        <br>
+                        Pay Invoice:
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                        <strong>{{ invoice_det.invoice_number }}</strong><br>
+                        <strong>{{ invoice_det.amount }}</strong><br>
+                        <strong>{{ invoice_det.date_issued }}</strong><br>
+                        <strong>{{ invoice_det.user_id }}</strong><br>
+                        <br>
+                        {{ invoice_det.paypal_form.sandbox }}
+                    </div>
+                </div>
+
             </div>
         </div>
     <br>

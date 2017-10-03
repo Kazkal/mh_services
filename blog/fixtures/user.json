@@ -1,0 +1,92 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$omzAOuuztBJd$mUrAyu7IqMq/fpyUCYYRRLVB9iS74dpJA+JCWpIMk4c=",
+        "last_login": "2017-10-01T14:45:42.097Z",
+        "is_superuser": true,
+        "username": "Kashmirk67@gmail.com",
+        "first_name": "Kashmir",
+        "last_name": "Kalirai",
+        "email": "Kashmirk67@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-08-31T13:57:11.967Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$nSvDEMwzXzoi$Me9lDlPQYw+zDymxH7I6V33qKSsHXZtsFDCw3iNdsds=",
+        "last_login": "2017-09-24T14:06:13.500Z",
+        "is_superuser": false,
+        "username": "SamLee@gmail.com",
+        "first_name": "Sam",
+        "last_name": "Lee",
+        "email": "SamLee@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-01T09:18:46.187Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$EzEyOmy19WZl$9LbZoSwqi2+PfiGAA5fPC4INnfVDoGqxEVebHyGIOr4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "IanSmith@gmail.com",
+        "first_name": "Ian ",
+        "last_name": "Smith",
+        "email": "IanSmith@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-13T12:32:36.061Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$1HEWISa5ncfX$vYleFfqOI+zeUO7opYORmDXAdNRq10X3gYPjsD1PIMU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JackGreen@hotmail.com",
+        "first_name": "Jack",
+        "last_name": "Green",
+        "email": "JackGreen@hotmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-13T12:33:45.327Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$ge8cTMm2WudV$+SyiyE/TaKxIMYxOPs+TGRckTdg8GqRxCP1LDc3Yv6w=",
+        "last_login": "2017-09-24T13:57:37.900Z",
+        "is_superuser": false,
+        "username": "KathWhite@hotmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "KathWhite@hotmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-24T13:57:12.348Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

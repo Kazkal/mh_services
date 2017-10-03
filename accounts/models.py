@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser, UserManager
 from django.db import models
 from django.utils import timezone
 
+
 # Create your models here.
 class AccountUserManager(UserManager):
     def _create_user(self, username, email, password,
@@ -12,6 +13,7 @@ class AccountUserManager(UserManager):
        Creates and saves a User with the given username, email and password.
        """
         now = timezone.now()
+        #2 lines added here
         if not email:
             raise ValueError('The given username must be set')
 

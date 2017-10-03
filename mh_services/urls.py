@@ -28,12 +28,12 @@ from payments import views as payments_views
 
 
 # url(r'^$', home_views.get_home, name='home'),
+# url(r'^person/$', accounts_views.person, name='person'),
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home_views.get_home, name='home'),
     url(r'^register/$', accounts_views.register, name='register'),
-    url(r'^person/$', accounts_views.person, name='person'),
     url(r'^login/$', accounts_views.login, name='login'),
     url(r'^logout/$', accounts_views.logout, name='logout'),
     url(r'^pages/', include('django.contrib.flatpages.urls')),
