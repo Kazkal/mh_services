@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccd2582-cc17-4688-a148-7481eb9517e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mh_services/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/homepage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/homepage2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/homepage3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/homepage4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/homepage5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/tap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/images/notneeded/tap2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/images/aboutus.jpg" afterPath="$PROJECT_DIR$/static/css/images/aboutus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mh_services.iml" afterPath="$PROJECT_DIR$/.idea/mh_services.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/admin.py" afterPath="$PROJECT_DIR$/accounts/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payments/views.py" afterPath="$PROJECT_DIR$/payments/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/blog_posts.html" afterPath="$PROJECT_DIR$/templates/blog/blog_posts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacts/bathrooms.html" afterPath="$PROJECT_DIR$/templates/contacts/bathrooms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacts/electrical.html" afterPath="$PROJECT_DIR$/templates/contacts/electrical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacts/heating.html" afterPath="$PROJECT_DIR$/templates/contacts/heating.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacts/plumbing.html" afterPath="$PROJECT_DIR$/templates/contacts/plumbing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -261,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenv" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
