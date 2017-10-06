@@ -14,8 +14,7 @@
 
 function myFunction() {
     alert('You must be logged in to access the blog', "M H Maintenace Servcies");
-    };
-
-//document.querySelector('html').onclick = function() {
+}
+ //document.querySelector('html').onclick = function() {
 //    alert('Ouch! Stop poking me!');
 //};
