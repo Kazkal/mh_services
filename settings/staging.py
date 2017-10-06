@@ -10,12 +10,12 @@ DATABASES = {
 }
 
 # Paypal environment variables
-PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
+PAYPAL_NOTIFY_URL = 'https://mh-maintenance-services.herokuapp.com'
 PAYPAL_RECEIVER_EMAIL = 'admin@mhservices.co.uk'
 
 
-SITE_URL = 'https://your-heroku-app.herokuapp.com'
-ALLOWED_HOSTS.append('your-heroku-app.herokuapp.com')
+SITE_URL = 'https://mh-maintenance-services.herokuapp.com'
+ALLOWED_HOSTS.append('mh-maintenance-services.herokuapp.com')
 
 # Log DEBUG information to the console as DEBUG=false
 LOGGING = {

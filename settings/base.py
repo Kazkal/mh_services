@@ -45,6 +45,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
@@ -106,3 +107,4 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 #id 2 is example.com, 3 is localhost in table django_site
 DISQUS_WEBSITE_SHORTNAME='mybootcampblog'
+

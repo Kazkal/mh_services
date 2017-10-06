@@ -1,0 +1,1 @@
+web: gunicorn mh_services.wsgi:application

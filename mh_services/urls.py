@@ -20,7 +20,7 @@ from home import views as home_views
 from portfolios import views as portfolio_views
 from contacts import views as contacts_views
 from django.views.static import serve
-from .settings import MEDIA_ROOT
+from settings.base import MEDIA_ROOT
 from blog import views as blog_views
 from paypal.standard.ipn import urls as paypal_urls
 from paypal_store import views as paypal_views
