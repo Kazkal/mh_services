@@ -1262,7 +1262,7 @@
         "user_id": 5,
         "invoice_number": "MHMS0060_KW1",
         "amount": "92.35",
-        "date_issued": null,
+        "date_issued": "2017-09-13T13:07:16.920Z",
         "date_paid": null
     }
 },
@@ -1273,7 +1273,7 @@
         "user_id": 7,
         "invoice_number": "MHMS0061_Jane2",
         "amount": "99.00",
-        "date_issued": null,
+        "date_issued": "2017-09-13T13:07:16.920Z",
         "date_paid": null
     }
 },
