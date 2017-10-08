@@ -2280,32 +2280,6 @@
 },
 {
     "model": "admin.logentry",
-    "pk": 79,
-    "fields": {
-        "action_time": "2017-10-03T12:37:24.472Z",
-        "user": 1,
-        "content_type": 6,
-        "object_id": "1",
-        "object_repr": "Kashmirk67@gmail.com",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 82,
-    "fields": {
-        "action_time": "2017-10-03T12:55:56.516Z",
-        "user": 1,
-        "content_type": 6,
-        "object_id": "6",
-        "object_repr": "TomBrown@gmail.com",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
     "pk": 83,
     "fields": {
         "action_time": "2017-10-03T13:56:13.612Z",
