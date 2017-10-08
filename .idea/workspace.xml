@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccd2582-cc17-4688-a148-7481eb9517e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0002_post_pinned.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contacts/migrations/0002_auto_20170903_1518.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contacts/migrations/0003_remove_contact_postcode.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/payments/migrations/0002_auto_20170913_1326.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/payments/migrations/0003_auto_20170913_1342.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolios/migrations/0002_auto_20170902_1739.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolios/migrations/0003_remove_portfolio_customer_id.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/contacts/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payments/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/payments/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolios/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/portfolios/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/staging.py" afterPath="$PROJECT_DIR$/settings/staging.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="staging.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="staging.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings/staging.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -44,12 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1507481826099" expanded="true" signature="2:125" ph="{&quot;model&quot;: &quot;auth.group&quot;...}" />
+                <marker date="1507481826099" expanded="true" signature="58:125" ph="{&quot;name&quot;: &quot;MH Staff&quot;...}" />
+                <marker date="1507481826099" expanded="true" signature="111:125" ph="[...]" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -917,8 +908,20 @@
     <entry file="file://$PROJECT_DIR$/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507481826099" expanded="true" signature="2:125" ph="{&quot;model&quot;: &quot;auth.group&quot;...}" />
+            <marker date="1507481826099" expanded="true" signature="58:125" ph="{&quot;name&quot;: &quot;MH Staff&quot;...}" />
+            <marker date="1507481826099" expanded="true" signature="111:125" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -929,14 +932,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
