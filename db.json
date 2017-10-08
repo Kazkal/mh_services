@@ -5,151 +5,35 @@
     "fields": {
         "name": "MH Staff",
         "permissions": [
-            [
-                "add_user",
-                "accounts",
-                "user"
-            ],
-            [
-                "change_user",
-                "accounts",
-                "user"
-            ],
-            [
-                "add_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "change_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "delete_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "add_group",
-                "auth",
-                "group"
-            ],
-            [
-                "change_group",
-                "auth",
-                "group"
-            ],
-            [
-                "add_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "change_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "add_blog",
-                "blog",
-                "blog"
-            ],
-            [
-                "change_blog",
-                "blog",
-                "blog"
-            ],
-            [
-                "add_category",
-                "blog",
-                "category"
-            ],
-            [
-                "change_category",
-                "blog",
-                "category"
-            ],
-            [
-                "add_post",
-                "blog",
-                "post"
-            ],
-            [
-                "change_post",
-                "blog",
-                "post"
-            ],
-            [
-                "add_contact",
-                "contacts",
-                "contact"
-            ],
-            [
-                "change_contact",
-                "contacts",
-                "contact"
-            ],
-            [
-                "add_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "change_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "add_flatpage",
-                "flatpages",
-                "flatpage"
-            ],
-            [
-                "change_flatpage",
-                "flatpages",
-                "flatpage"
-            ],
-            [
-                "add_portfolio",
-                "portfolios",
-                "portfolio"
-            ],
-            [
-                "change_portfolio",
-                "portfolios",
-                "portfolio"
-            ],
-            [
-                "add_testimonial",
-                "portfolios",
-                "testimonial"
-            ],
-            [
-                "change_testimonial",
-                "portfolios",
-                "testimonial"
-            ],
-            [
-                "add_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "change_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "add_site",
-                "sites",
-                "site"
-            ],
-            [
-                "change_site",
-                "sites",
-                "site"
-            ]
+            16,
+            17,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            34,
+            35,
+            37,
+            38,
+            40,
+            41,
+            31,
+            32,
+            10,
+            11,
+            22,
+            23,
+            25,
+            26,
+            28,
+            29,
+            13,
+            14,
+            19,
+            20
         ]
     }
 },
@@ -159,11 +43,7 @@
     "fields": {
         "name": "Customers",
         "permissions": [
-            [
-                "add_contact",
-                "contacts",
-                "contact"
-            ]
+            31
         ]
     }
 },
@@ -302,9 +182,7 @@
         "is_active": true,
         "date_joined": "2017-08-31T13:57:11Z",
         "groups": [
-            [
-                "MH Staff"
-            ]
+            1
         ],
         "user_permissions": []
     }
@@ -324,9 +202,7 @@
         "is_active": true,
         "date_joined": "2017-09-01T09:18:46.187Z",
         "groups": [
-            [
-                "MH Staff"
-            ]
+            1
         ],
         "user_permissions": []
     }
@@ -346,9 +222,7 @@
         "is_active": true,
         "date_joined": "2017-09-13T12:32:36.061Z",
         "groups": [
-            [
-                "Customers"
-            ]
+            2
         ],
         "user_permissions": []
     }
@@ -368,9 +242,7 @@
         "is_active": true,
         "date_joined": "2017-09-13T12:33:45.327Z",
         "groups": [
-            [
-                "Customers"
-            ]
+            2
         ],
         "user_permissions": []
     }
@@ -390,9 +262,7 @@
         "is_active": true,
         "date_joined": "2017-09-24T13:57:12.348Z",
         "groups": [
-            [
-                "Customers"
-            ]
+            2
         ],
         "user_permissions": []
     }
@@ -412,9 +282,7 @@
         "is_active": true,
         "date_joined": "2017-10-04T10:03:53.439Z",
         "groups": [
-            [
-                "Customers"
-            ]
+            2
         ],
         "user_permissions": []
     }
@@ -446,9 +314,7 @@
         "template_name": "",
         "registration_required": false,
         "sites": [
-            [
-                "localhost"
-            ]
+            3
         ]
     }
 },
@@ -458,9 +324,7 @@
     "fields": {
         "title": "Bathroom replacement",
         "image": "images/sink1.jpg",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ]
+        "user_id": 4
     }
 },
 {
@@ -469,9 +333,7 @@
     "fields": {
         "title": "Kitchen sink replaced",
         "image": "images/heating2.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -480,9 +342,7 @@
     "fields": {
         "title": "Office refurbishment",
         "image": "images/kitchen3.jpg",
-        "user_id": [
-            "IanSmith@gmail.com"
-        ]
+        "user_id": 3
     }
 },
 {
@@ -491,9 +351,7 @@
     "fields": {
         "title": "Open office refurbishment",
         "image": "images/proj3d_pBXd9Wg.jpg",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ]
+        "user_id": 4
     }
 },
 {
@@ -502,9 +360,7 @@
     "fields": {
         "title": "Bedroom 1",
         "image": "images/bedroom1.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -513,9 +369,7 @@
     "fields": {
         "title": "bedroom2",
         "image": "images/bedroom2.jpg",
-        "user_id": [
-            "SamLee@gmail.com"
-        ]
+        "user_id": 2
     }
 },
 {
@@ -524,9 +378,7 @@
     "fields": {
         "title": "bedroom3",
         "image": "images/bedroom3.jpg",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ]
+        "user_id": 4
     }
 },
 {
@@ -535,9 +387,7 @@
     "fields": {
         "title": "bathroom 1",
         "image": "images/bathroom1.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -546,9 +396,7 @@
     "fields": {
         "title": "bathroom 2",
         "image": "images/bathroom2.jpg",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ]
+        "user_id": 4
     }
 },
 {
@@ -557,9 +405,7 @@
     "fields": {
         "title": "bathroom 3",
         "image": "images/bathroom3.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -568,9 +414,7 @@
     "fields": {
         "title": "kitchen 1",
         "image": "images/kitchen1.jpg",
-        "user_id": [
-            "SamLee@gmail.com"
-        ]
+        "user_id": 2
     }
 },
 {
@@ -579,9 +423,7 @@
     "fields": {
         "title": "kitchen 2`",
         "image": "images/kitchen2.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -590,9 +432,7 @@
     "fields": {
         "title": "kitchen 3`",
         "image": "images/kitchen3.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -601,9 +441,7 @@
     "fields": {
         "title": "new flooring",
         "image": "images/laminate.jpg",
-        "user_id": [
-            "SamLee@gmail.com"
-        ]
+        "user_id": 2
     }
 },
 {
@@ -612,9 +450,7 @@
     "fields": {
         "title": "New washbasin",
         "image": "images/washbasin1.jpg",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ]
+        "user_id": 5
     }
 },
 {
@@ -623,9 +459,7 @@
     "fields": {
         "title": "sink 2",
         "image": "images/sink2.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -634,9 +468,7 @@
     "fields": {
         "title": "toilet 1",
         "image": "images/toilet1.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -645,9 +477,7 @@
     "fields": {
         "title": "toilet 2",
         "image": "images/toilet2.jpg",
-        "user_id": [
-            "SamLee@gmail.com"
-        ]
+        "user_id": 2
     }
 },
 {
@@ -656,9 +486,7 @@
     "fields": {
         "title": "lights 1",
         "image": "images/lights1.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -667,9 +495,7 @@
     "fields": {
         "title": "heating 1",
         "image": "images/heating1.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -678,9 +504,7 @@
     "fields": {
         "title": "heating 2",
         "image": "images/heating2.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -689,9 +513,7 @@
     "fields": {
         "title": "new lounge flooring 1",
         "image": "images/flooring1.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -700,9 +522,7 @@
     "fields": {
         "title": "new lounge flooring 2",
         "image": "images/flooring2.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -711,9 +531,7 @@
     "fields": {
         "title": "new bathroom flooring",
         "image": "images/flooring3.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -722,9 +540,7 @@
     "fields": {
         "title": "Lounge 1",
         "image": "images/lounge1_AevJm9V.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -733,9 +549,7 @@
     "fields": {
         "title": "Lounge 2",
         "image": "images/lounge_2.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -744,9 +558,7 @@
     "fields": {
         "title": "Bedroom 4",
         "image": "images/bedroom4_RXyWHJ7.jpg",
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ]
+        "user_id": 1
     }
 },
 {
@@ -754,9 +566,7 @@
     "pk": 1,
     "fields": {
         "testimonial": "We have been really struck by everyone's efficiency and helpfulness and I will be sure to recommend the team to friends and family.",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ],
+        "user_id": 4,
         "location": "Derby"
     }
 },
@@ -765,9 +575,7 @@
     "pk": 2,
     "fields": {
         "testimonial": "I am impressed by the high standards and attention to detail given.",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ],
+        "user_id": 5,
         "location": "Watford"
     }
 },
@@ -776,9 +584,7 @@
     "pk": 3,
     "fields": {
         "testimonial": "Thankyou so much for the high standard of work carried out and the professionalism",
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ],
+        "user_id": 5,
         "location": "Derby"
     }
 },
@@ -787,9 +593,7 @@
     "pk": 4,
     "fields": {
         "testimonial": "M H Maintenance have carried out numerous jobs for us and we have always been impressed with the quality of work",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ],
+        "user_id": 4,
         "location": "Derby"
     }
 },
@@ -798,9 +602,7 @@
     "pk": 5,
     "fields": {
         "testimonial": "Thank you so much for a brilliant job. Outstanding service and value for money",
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ],
+        "user_id": 4,
         "location": "Watford"
     }
 },
@@ -809,9 +611,7 @@
     "pk": 6,
     "fields": {
         "testimonial": "Recommended to me by a friend. Very happy with the quality of the work carried out",
-        "user_id": [
-            "SamLee@gmail.com"
-        ],
+        "user_id": 2,
         "location": "Leamington"
     }
 },
@@ -1284,9 +1084,7 @@
         "image": "images/carbon_monoxide.jpg",
         "created_date": "2017-09-05",
         "category": 7,
-        "author": [
-            "IanSmith@gmail.com"
-        ],
+        "author": 3,
         "pinned": false
     }
 },
@@ -1299,9 +1097,7 @@
         "image": "images/electrician2_TTk1U3r.jpg",
         "created_date": "2017-09-06",
         "category": 6,
-        "author": [
-            "SamLee@gmail.com"
-        ],
+        "author": 2,
         "pinned": false
     }
 },
@@ -1314,9 +1110,7 @@
         "image": "images/electrician_50R4kkJ.jpg",
         "created_date": "2017-10-02",
         "category": 6,
-        "author": [
-            "IanSmith@gmail.com"
-        ],
+        "author": 3,
         "pinned": false
     }
 },
@@ -1329,9 +1123,7 @@
         "image": "images/bathroomfitter_xGIWEBs.jpg",
         "created_date": "2017-09-04",
         "category": 4,
-        "author": [
-            "Kashmirk67@gmail.com"
-        ],
+        "author": 1,
         "pinned": false
     }
 },
@@ -1344,9 +1136,7 @@
         "image": "",
         "created_date": "2017-09-10",
         "category": 5,
-        "author": [
-            "IanSmith@gmail.com"
-        ],
+        "author": 3,
         "pinned": false
     }
 },
@@ -1359,9 +1149,7 @@
         "image": "images/right_handyman_uTix2Hy.jpg",
         "created_date": "2017-09-04",
         "category": 2,
-        "author": [
-            "SamLee@gmail.com"
-        ],
+        "author": 2,
         "pinned": false
     }
 },
@@ -1374,9 +1162,7 @@
         "image": "images/registered_Yzj6qJF.jpg",
         "created_date": "2017-09-10",
         "category": 2,
-        "author": [
-            "SamLee@gmail.com"
-        ],
+        "author": 2,
         "pinned": true
     }
 },
@@ -1389,9 +1175,7 @@
         "image": "images/ciphe.jpg",
         "created_date": "2017-09-07",
         "category": 7,
-        "author": [
-            "IanSmith@gmail.com"
-        ],
+        "author": 3,
         "pinned": false
     }
 },
@@ -1441,9 +1225,7 @@
     "model": "payments.invoice",
     "pk": 1,
     "fields": {
-        "user_id": [
-            "Kashmirk67@gmail.com"
-        ],
+        "user_id": 1,
         "invoice_number": "MHMS0062_KK",
         "amount": "300.00",
         "date_issued": "2017-09-13T13:06:07.324Z",
@@ -1454,9 +1236,7 @@
     "model": "payments.invoice",
     "pk": 2,
     "fields": {
-        "user_id": [
-            "SamLee@gmail.com"
-        ],
+        "user_id": 2,
         "invoice_number": "MHMS0057_SL",
         "amount": "655.00",
         "date_issued": "2017-09-13T13:06:30.926Z",
@@ -1467,9 +1247,7 @@
     "model": "payments.invoice",
     "pk": 3,
     "fields": {
-        "user_id": [
-            "IanSmith@gmail.com"
-        ],
+        "user_id": 3,
         "invoice_number": "MHMS0058_IS",
         "amount": "1298.00",
         "date_issued": "2017-09-13T13:06:46.364Z",
@@ -1480,9 +1258,7 @@
     "model": "payments.invoice",
     "pk": 4,
     "fields": {
-        "user_id": [
-            "JackGreen@hotmail.com"
-        ],
+        "user_id": 4,
         "invoice_number": "MHMS0059_Jane",
         "amount": "5400.00",
         "date_issued": "2017-09-13T13:07:16.920Z",
@@ -1493,9 +1269,7 @@
     "model": "payments.invoice",
     "pk": 5,
     "fields": {
-        "user_id": [
-            "KathWhite@hotmail.com"
-        ],
+        "user_id": 5,
         "invoice_number": "MHMS0060_KW1",
         "amount": "92.35",
         "date_issued": null,
@@ -1506,9 +1280,7 @@
     "model": "payments.invoice",
     "pk": 6,
     "fields": {
-        "user_id": [
-            "AnneBlue@outlook.com"
-        ],
+        "user_id": 7,
         "invoice_number": "MHMS0061_Jane2",
         "amount": "99.00",
         "date_issued": null,
@@ -1520,13 +1292,8 @@
     "pk": 1,
     "fields": {
         "action_time": "2017-08-31T14:20:02.523Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "sites",
-            "site"
-        ],
+        "user": 1,
+        "content_type": 7,
         "object_id": "3",
         "object_repr": "localhost",
         "action_flag": 1,
@@ -1538,13 +1305,8 @@
     "pk": 2,
     "fields": {
         "action_time": "2017-08-31T14:41:05.240Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "1",
         "object_repr": "/pages/about/ -- About M H Maintenance Services Ltd",
         "action_flag": 1,
@@ -1556,13 +1318,8 @@
     "pk": 3,
     "fields": {
         "action_time": "2017-09-01T14:07:08.321Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "1",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1574,13 +1331,8 @@
     "pk": 4,
     "fields": {
         "action_time": "2017-09-01T14:07:39.143Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "2",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1592,13 +1344,8 @@
     "pk": 5,
     "fields": {
         "action_time": "2017-09-01T14:08:03.092Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "3",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1610,13 +1357,8 @@
     "pk": 6,
     "fields": {
         "action_time": "2017-09-01T14:08:38.902Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "4",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1628,13 +1370,8 @@
     "pk": 7,
     "fields": {
         "action_time": "2017-09-02T13:22:44.894Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "4",
         "object_repr": "Portfolio object",
         "action_flag": 2,
@@ -1646,13 +1383,8 @@
     "pk": 8,
     "fields": {
         "action_time": "2017-09-02T13:23:21.780Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "3",
         "object_repr": "Portfolio object",
         "action_flag": 2,
@@ -1664,13 +1396,8 @@
     "pk": 9,
     "fields": {
         "action_time": "2017-09-02T13:23:38.848Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "2",
         "object_repr": "Portfolio object",
         "action_flag": 2,
@@ -1682,13 +1409,8 @@
     "pk": 10,
     "fields": {
         "action_time": "2017-09-02T13:24:17.012Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "1",
         "object_repr": "Portfolio object",
         "action_flag": 2,
@@ -1700,13 +1422,8 @@
     "pk": 11,
     "fields": {
         "action_time": "2017-09-02T13:41:25.404Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "5",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1718,13 +1435,8 @@
     "pk": 12,
     "fields": {
         "action_time": "2017-09-02T13:41:45.534Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "6",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1736,13 +1448,8 @@
     "pk": 13,
     "fields": {
         "action_time": "2017-09-02T13:42:04.766Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "7",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1754,13 +1461,8 @@
     "pk": 14,
     "fields": {
         "action_time": "2017-09-02T13:42:24.084Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "8",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1772,13 +1474,8 @@
     "pk": 15,
     "fields": {
         "action_time": "2017-09-02T13:42:40.552Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "9",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1790,13 +1487,8 @@
     "pk": 16,
     "fields": {
         "action_time": "2017-09-02T13:42:59.225Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "10",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1808,13 +1500,8 @@
     "pk": 17,
     "fields": {
         "action_time": "2017-09-02T13:43:16.407Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "11",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1826,13 +1513,8 @@
     "pk": 18,
     "fields": {
         "action_time": "2017-09-02T13:43:37.267Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "12",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1844,13 +1526,8 @@
     "pk": 19,
     "fields": {
         "action_time": "2017-09-02T13:43:54.474Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "13",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1862,13 +1539,8 @@
     "pk": 20,
     "fields": {
         "action_time": "2017-09-02T13:46:10.394Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "14",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -1880,13 +1552,8 @@
     "pk": 21,
     "fields": {
         "action_time": "2017-09-02T16:48:39.737Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "1",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1898,13 +1565,8 @@
     "pk": 22,
     "fields": {
         "action_time": "2017-09-02T16:49:28.322Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "2",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1916,13 +1578,8 @@
     "pk": 23,
     "fields": {
         "action_time": "2017-09-02T16:50:29.599Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "3",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1934,13 +1591,8 @@
     "pk": 24,
     "fields": {
         "action_time": "2017-09-02T16:51:30.574Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "4",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1952,13 +1604,8 @@
     "pk": 25,
     "fields": {
         "action_time": "2017-09-02T16:53:02.313Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "5",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1970,13 +1617,8 @@
     "pk": 26,
     "fields": {
         "action_time": "2017-09-02T16:54:59.107Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "testimonial"
-        ],
+        "user": 1,
+        "content_type": 10,
         "object_id": "6",
         "object_repr": "Testimonial object",
         "action_flag": 1,
@@ -1988,13 +1630,8 @@
     "pk": 27,
     "fields": {
         "action_time": "2017-09-06T08:32:43.046Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "15",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2006,13 +1643,8 @@
     "pk": 28,
     "fields": {
         "action_time": "2017-09-06T08:33:09.860Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "16",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2024,13 +1656,8 @@
     "pk": 29,
     "fields": {
         "action_time": "2017-09-06T08:33:33.138Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "17",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2042,13 +1669,8 @@
     "pk": 30,
     "fields": {
         "action_time": "2017-09-06T08:33:47.372Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "18",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2060,13 +1682,8 @@
     "pk": 31,
     "fields": {
         "action_time": "2017-09-06T08:34:02.241Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "19",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2078,13 +1695,8 @@
     "pk": 32,
     "fields": {
         "action_time": "2017-09-06T08:34:19.696Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "20",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2096,13 +1708,8 @@
     "pk": 33,
     "fields": {
         "action_time": "2017-09-06T08:34:34.287Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "21",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2114,13 +1721,8 @@
     "pk": 34,
     "fields": {
         "action_time": "2017-09-06T08:34:55.252Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "22",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2132,13 +1734,8 @@
     "pk": 35,
     "fields": {
         "action_time": "2017-09-06T08:35:10.841Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "23",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2150,13 +1747,8 @@
     "pk": 36,
     "fields": {
         "action_time": "2017-09-06T08:35:26.803Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "24",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2168,13 +1760,8 @@
     "pk": 37,
     "fields": {
         "action_time": "2017-09-06T11:52:20.851Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "1",
         "object_repr": "Company News",
         "action_flag": 1,
@@ -2186,13 +1773,8 @@
     "pk": 38,
     "fields": {
         "action_time": "2017-09-06T11:52:27.583Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "2",
         "object_repr": "Plumbing",
         "action_flag": 1,
@@ -2204,13 +1786,8 @@
     "pk": 39,
     "fields": {
         "action_time": "2017-09-06T11:52:33.812Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "3",
         "object_repr": "Handyman",
         "action_flag": 1,
@@ -2222,13 +1799,8 @@
     "pk": 40,
     "fields": {
         "action_time": "2017-09-06T11:52:40.518Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "4",
         "object_repr": "Bathrooms",
         "action_flag": 1,
@@ -2240,13 +1812,8 @@
     "pk": 41,
     "fields": {
         "action_time": "2017-09-06T11:53:54.024Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "5",
         "object_repr": "Heating",
         "action_flag": 1,
@@ -2258,13 +1825,8 @@
     "pk": 42,
     "fields": {
         "action_time": "2017-09-06T11:54:03.246Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "6",
         "object_repr": "Electrical",
         "action_flag": 1,
@@ -2276,13 +1838,8 @@
     "pk": 43,
     "fields": {
         "action_time": "2017-09-06T12:40:21.052Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "category"
-        ],
+        "user": 1,
+        "content_type": 13,
         "object_id": "7",
         "object_repr": "Industry News",
         "action_flag": 1,
@@ -2294,13 +1851,8 @@
     "pk": 44,
     "fields": {
         "action_time": "2017-09-06T12:41:27.105Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "1",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2312,13 +1864,8 @@
     "pk": 45,
     "fields": {
         "action_time": "2017-09-06T12:44:32.363Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "2",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2330,13 +1877,8 @@
     "pk": 46,
     "fields": {
         "action_time": "2017-09-06T12:58:42.343Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "3",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2348,13 +1890,8 @@
     "pk": 47,
     "fields": {
         "action_time": "2017-09-06T13:05:39.657Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "4",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2366,13 +1903,8 @@
     "pk": 48,
     "fields": {
         "action_time": "2017-09-06T13:09:59.286Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "5",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2384,13 +1916,8 @@
     "pk": 49,
     "fields": {
         "action_time": "2017-09-06T13:12:17.395Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "6",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2402,13 +1929,8 @@
     "pk": 50,
     "fields": {
         "action_time": "2017-09-06T13:17:53.178Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "7",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2420,13 +1942,8 @@
     "pk": 51,
     "fields": {
         "action_time": "2017-09-06T13:20:33.242Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "blog"
-        ],
+        "user": 1,
+        "content_type": 12,
         "object_id": "8",
         "object_repr": "Blog object",
         "action_flag": 1,
@@ -2438,13 +1955,8 @@
     "pk": 52,
     "fields": {
         "action_time": "2017-09-13T13:06:07.347Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "payments",
-            "invoice"
-        ],
+        "user": 1,
+        "content_type": 17,
         "object_id": "1",
         "object_repr": "Invoice object",
         "action_flag": 1,
@@ -2456,13 +1968,8 @@
     "pk": 53,
     "fields": {
         "action_time": "2017-09-13T13:06:30.959Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "payments",
-            "invoice"
-        ],
+        "user": 1,
+        "content_type": 17,
         "object_id": "2",
         "object_repr": "Invoice object",
         "action_flag": 1,
@@ -2474,13 +1981,8 @@
     "pk": 54,
     "fields": {
         "action_time": "2017-09-13T13:06:46.382Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "payments",
-            "invoice"
-        ],
+        "user": 1,
+        "content_type": 17,
         "object_id": "3",
         "object_repr": "Invoice object",
         "action_flag": 1,
@@ -2492,13 +1994,8 @@
     "pk": 55,
     "fields": {
         "action_time": "2017-09-13T13:07:16.982Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "payments",
-            "invoice"
-        ],
+        "user": 1,
+        "content_type": 17,
         "object_id": "4",
         "object_repr": "Invoice object",
         "action_flag": 1,
@@ -2510,13 +2007,8 @@
     "pk": 56,
     "fields": {
         "action_time": "2017-09-15T09:53:50.762Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "1",
         "object_repr": "/pages/about/ -- About M H Maintenance Services Ltd",
         "action_flag": 2,
@@ -2528,13 +2020,8 @@
     "pk": 57,
     "fields": {
         "action_time": "2017-09-15T10:01:30.288Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "25",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2546,13 +2033,8 @@
     "pk": 58,
     "fields": {
         "action_time": "2017-09-15T10:01:50.656Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "26",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2564,13 +2046,8 @@
     "pk": 59,
     "fields": {
         "action_time": "2017-09-15T10:02:11.084Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "27",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2582,13 +2059,8 @@
     "pk": 60,
     "fields": {
         "action_time": "2017-09-20T12:29:16.978Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "1",
         "object_repr": "/pages/about/ -- About M H Maintenance Services Ltd",
         "action_flag": 2,
@@ -2600,13 +2072,8 @@
     "pk": 61,
     "fields": {
         "action_time": "2017-09-20T12:30:19.183Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "2",
         "object_repr": "//pages/about/ -- About M H Maintenance Services",
         "action_flag": 1,
@@ -2618,13 +2085,8 @@
     "pk": 62,
     "fields": {
         "action_time": "2017-09-20T12:30:44.172Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "1",
         "object_repr": "/pages/about/ -- About M H Maintenance Services Ltd",
         "action_flag": 3,
@@ -2636,13 +2098,8 @@
     "pk": 63,
     "fields": {
         "action_time": "2017-09-20T12:39:53.529Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "2",
         "object_repr": "/pages/about/ -- About M H Maintenance Services",
         "action_flag": 2,
@@ -2654,13 +2111,8 @@
     "pk": 64,
     "fields": {
         "action_time": "2017-09-20T12:54:58.995Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "2",
         "object_repr": "/pages/about/ -- About M H Maintenance Services",
         "action_flag": 2,
@@ -2672,13 +2124,8 @@
     "pk": 65,
     "fields": {
         "action_time": "2017-09-24T13:19:17.568Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "9",
         "object_repr": "Post object",
         "action_flag": 1,
@@ -2690,13 +2137,8 @@
     "pk": 66,
     "fields": {
         "action_time": "2017-09-28T10:40:46.331Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "28",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2708,13 +2150,8 @@
     "pk": 67,
     "fields": {
         "action_time": "2017-09-28T10:41:08.880Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "29",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2726,13 +2163,8 @@
     "pk": 68,
     "fields": {
         "action_time": "2017-09-28T10:41:31.917Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "30",
         "object_repr": "Portfolio object",
         "action_flag": 1,
@@ -2744,13 +2176,8 @@
     "pk": 69,
     "fields": {
         "action_time": "2017-09-29T08:37:22.734Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "portfolios",
-            "portfolio"
-        ],
+        "user": 1,
+        "content_type": 9,
         "object_id": "30",
         "object_repr": "Portfolio object",
         "action_flag": 2,
@@ -2762,13 +2189,8 @@
     "pk": 70,
     "fields": {
         "action_time": "2017-10-02T14:17:48.898Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "10",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2780,13 +2202,8 @@
     "pk": 71,
     "fields": {
         "action_time": "2017-10-02T14:21:15.343Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "9",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2798,13 +2215,8 @@
     "pk": 72,
     "fields": {
         "action_time": "2017-10-02T14:23:38.564Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "8",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2816,13 +2228,8 @@
     "pk": 73,
     "fields": {
         "action_time": "2017-10-02T14:26:46.584Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "6",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2834,13 +2241,8 @@
     "pk": 74,
     "fields": {
         "action_time": "2017-10-02T14:28:26.928Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "5",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2852,13 +2254,8 @@
     "pk": 75,
     "fields": {
         "action_time": "2017-10-02T14:32:12.509Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "3",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2870,13 +2267,8 @@
     "pk": 76,
     "fields": {
         "action_time": "2017-10-02T14:32:33.594Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "2",
         "object_repr": "Post object",
         "action_flag": 2,
@@ -2888,13 +2280,8 @@
     "pk": 77,
     "fields": {
         "action_time": "2017-10-02T14:32:57.725Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "blog",
-            "post"
-        ],
+        "user": 1,
+        "content_type": 14,
         "object_id": "1",
         "object_repr": "Post object",
         "action_flag": 3,
@@ -2903,34 +2290,11 @@
 },
 {
     "model": "admin.logentry",
-    "pk": 78,
-    "fields": {
-        "action_time": "2017-10-03T11:45:18.078Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "auth",
-            "group"
-        ],
-        "object_id": "1",
-        "object_repr": "MH Staff",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
     "pk": 79,
     "fields": {
         "action_time": "2017-10-03T12:37:24.472Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "accounts",
-            "user"
-        ],
+        "user": 1,
+        "content_type": 6,
         "object_id": "1",
         "object_repr": "Kashmirk67@gmail.com",
         "action_flag": 2,
@@ -2939,52 +2303,11 @@
 },
 {
     "model": "admin.logentry",
-    "pk": 80,
-    "fields": {
-        "action_time": "2017-10-03T12:44:49.529Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "auth",
-            "group"
-        ],
-        "object_id": "2",
-        "object_repr": "Customers",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 81,
-    "fields": {
-        "action_time": "2017-10-03T12:48:33.730Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "auth",
-            "group"
-        ],
-        "object_id": "3",
-        "object_repr": "Jack Green",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
     "pk": 82,
     "fields": {
         "action_time": "2017-10-03T12:55:56.516Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "accounts",
-            "user"
-        ],
+        "user": 1,
+        "content_type": 6,
         "object_id": "6",
         "object_repr": "TomBrown@gmail.com",
         "action_flag": 1,
@@ -2996,13 +2319,8 @@
     "pk": 83,
     "fields": {
         "action_time": "2017-10-03T13:56:13.612Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "2",
         "object_repr": "/pages/about/ -- About M H Maintenance Services",
         "action_flag": 2,
@@ -3014,13 +2332,8 @@
     "pk": 84,
     "fields": {
         "action_time": "2017-10-03T14:24:19.932Z",
-        "user": [
-            "Kashmirk67@gmail.com"
-        ],
-        "content_type": [
-            "flatpages",
-            "flatpage"
-        ],
+        "user": 1,
+        "content_type": 8,
         "object_id": "2",
         "object_repr": "/pages/about/ -- About M H Maintenance Services",
         "action_flag": 2,
