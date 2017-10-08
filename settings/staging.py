@@ -4,8 +4,12 @@ import dj_database_url
 DEBUG = False
 
 # Load the ClearDB connection details from the environment variable
+#fix data integrity problems with STRICT
 DATABASES = {
-    'default': dj_database_url.config('CLEARDB_DATABASE_URL')
+    'default': dj_database_url.config('CLEARDB_DATABASE_URL'),
+    'OPTIONS': {
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+    },
 }
 
 # Paypal environment variables
