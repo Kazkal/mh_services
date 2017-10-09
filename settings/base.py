@@ -95,7 +95,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-#for gathering static files in a single directory so you can serve them easily: STATIC_ROOT='/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#for gathering static files in a single directory so you can serve them easily: STATIC_ROOT
 #define a list of directories where Django will also look for static files
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
