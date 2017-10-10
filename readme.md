@@ -132,7 +132,7 @@ Tested website in following browsers:
 
 ### Deployment
 To deploy my Django app to Heroku I:
-### A. Got two environments ready
+### A. Set up development and staging environment
 	1. Made two copies of my code. One copy for the development stage and one copy for the production stage.
 	2. replaced the settings.py file with a new python package called settings
 		- created a new file called base.py which contains all the settings to be shared by both the development and staging environments. It is the same as the settings.py file but with a few  settings taken out which will differ according to whether the environment is development or production
@@ -142,19 +142,17 @@ To deploy my Django app to Heroku I:
 		 - pip freeze > requirements.txt
 	6. created a new directory called requirements and a new file base.txt which is a copy of requirements.txt. The requirements.txt  file was then emptied and pointed to the new base.txt. 
 	7. created new files dev.txt and staging.txt for the development and production environments respectively. Both these files reference base.txt but add extras for their own environments
-### B. Host app on Heroku:
+### B. Host app on Heroku
 	1. I logged onto the Heroku Dashboard and created a new app called mh-maintenance services and selected Europe as the region.
 	2. I updated the settings in staging.py to point to this new Heroku app
 	3. I installed a python package called gunicorn and added it as a dependency to base.txt
 	4. I created 2 files Procfile and Procfile.local to tell  Heroku what to do with app once its deployed
 	5. I pushed all the code changes to the Github repository: https://github.com/Kazkal/mh_services
-### C. Setup database on Heroku:
+### C. Setup database on Heroku
 	1. In the Heroku Dashboard I added a new add-on for my new app: ClearDB MySQL which allowed us to connect to our MySQL database
 	2. I used the migrate command to build tables in the new staging database.
 	3. To add data to the new database on Heroku, I ran the dumpdata command on db.sqlite3 database which created a json data file. I then used the loaddata command to load data from this file into the new staging database
 	4. I installed Whitenoise to allow static files to be hosted as Django does not do that in production
-
-### D. Finally:
-	1. I logged into Heroku
-	2. Set our environment on Heroku to staging using the setting DJANGO_SETTINGS_MODULE
-	3. Used the heroku open command to open my project in the browser
+	5. I logged into Heroku
+	6. Set our environment on Heroku to staging using the setting DJANGO_SETTINGS_MODULE
+	7. Used the heroku open command to open my project in the browser

@@ -8,7 +8,7 @@
             <div class="col-sm-12 col-md-6" id="blog_body">
                 {% for post in vposts %}
                     <h6>{{ post.title }}</h6>
-                    <p><button class="btn btn-xs" onclick="location.href=;{{ post.id }}" style="float:right;">Continue Reading</button></p>
+                    <p><button class="btn btn-xs" onclick="location.href={{ post.id }}" style="float:right;">Continue Reading</button></p>
                     <p style="font-size:0.75em;">{{ post.created_date }}   in   {{ post.category }}</p>
                     <p style="font-size:0.85em;">{{ post.body|truncatewords:50 }}</p>
                     <hr>

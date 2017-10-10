@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-    <div class="container" >
-        <div class="row" style="margin-top:20px;">
+    <div class="container" style="margin-bottom:35px;" >
+        <div class="row" >
             <div class="col-sm-12 col-md-12">
                 <br>
                 Online payments. (You need to be logged in to access this service.)<br>
@@ -16,16 +16,26 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-5">
                         Invoice Number:  <br>
+                        <br>
                         Amount (£):      <br>
+                        <br>
                         Date Issued:     <br>
-                        Customer:        <br>
+                        <br>
+                        Customer Name:        <br>
+                        <br>
+                        Email:        <br>
                         <br>
                         Pay Invoice:
                     </div>
                     <div class="col-sm-6 col-md-5">
                         <strong>{{ invoice_det.invoice_number }}</strong><br>
+                        <br>
                         <strong>{{ invoice_det.amount }}</strong><br>
+                        <br>
                         <strong>{{ invoice_det.date_issued }}</strong><br>
+                        <br>
+                        <strong>{{ user.first_name }} {{user.last_name }}</strong><br>
+                        <br>
                         <strong>{{ invoice_det.user_id }}</strong><br>
                         <br>
                         {{ invoice_det.paypal_form.sandbox }}

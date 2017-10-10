@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="container" style="margin-top:20px;">
+    <div class="container" style="margin-top:10px;">
         <h2>Portfolio</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-12" id="gallery">
+            <div class="col-sm-12 col-md-12" id="zoomin">
                  {%  for record in var_portfolios_list %}
                         {% if record.image %}
-                            <a href="/media/{{ record.image}}" style="width:400px;height:380px;" >
-                                <img HEIGHT=90px WIDTH=90px src="/media/{{ record.image}}">
-                            </a>
+
+                                <img HEIGHT=100px WIDTH=100px src="/media/{{ record.image}}" >
+
                         {% endif %}
                 {% endfor %}
             </div>
