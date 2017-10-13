@@ -31,7 +31,7 @@ class HomePageTest(TestCase):
         self.assertEqual(home_page.status_code, 200)
 
     #check content & template used
-    def test_check_content_is_correct(self):
+    def test_home_content_is_correct(self):
         home_page = self.client.get('/')
         self.assertTemplateUsed(home_page, "home.html")
         home_page_template_output = render_to_response("home.html", {'user':self.user}).content

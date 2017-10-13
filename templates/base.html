@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>   </title>
+    <title>M H Maintenance Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -50,18 +50,15 @@
                             <li><a href="{% url 'contactus' %}">Contact Us</a></li>
                         </ul>
                     </li>
-
                     {% if user.is_authenticated %}
+                        <li><a href="{% url 'blog' %}">Blog</a></li>
                         <li><a href="{% url 'payinvoice' %}">Pay Invoice</a></li>
                         <li><a href="{% url 'logout' %}">Log Out</a></li>
-                        <li><a href="{% url 'blog' %}">Blog</a></li>
                     {% else %}
+                        <li onclick="funcBlog()"><a href="{% url 'blog' %}">Blog</a></li>
                         <li><a href="{% url 'register' %}">Register</a></li>
                         <li><a href="{% url 'login' %}">Log In</a></li>
-                        <li onclick="myFunction()"><a href="{% url 'blog' %}">Blog</a></li>
                     {% endif %}
-
-
                 </ul>
             </div>
         </div>
@@ -92,9 +89,9 @@
             </div>
             <div class="col-sm-6 col-md-4">
                 <p>Copyright 2017 K Kalirai</p>
-                <a href="https://www.facebook.com/kashmir.kalirai" class="fa fa-facebook-square" style="font-size:36px"></a>
-                <a href="https://twitter.com/Kazkal50?lang=en" class="fa fa-twitter-square" style="font-size:36px"></a>
-                <a href="https://www.linkedin.com/in/kashmir-kalirai-a83a1729/" class="fa fa-linkedin-square" style="font-size:36px"></a>
+                <a href="https://www.facebook.com/Code.InstituteIRL/" class="fa fa-facebook-square" style="font-size:36px"></a>
+                <a href="https://twitter.com/codersinstitute?lang=en" class="fa fa-twitter-square" style="font-size:36px"></a>
+                <a href="https://www.linkedin.com/school/5350891/" class="fa fa-linkedin-square" style="font-size:36px"></a>
                 <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest-square" style="font-size:36px"></a>
             </div>
         </div>
@@ -103,7 +100,6 @@
 </body>
 
 <!-- script references -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </html>

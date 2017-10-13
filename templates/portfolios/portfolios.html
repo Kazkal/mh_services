@@ -6,9 +6,7 @@
             <div class="col-sm-12 col-md-12" id="zoomin">
                  {%  for record in var_portfolios_list %}
                         {% if record.image %}
-
-                                <img HEIGHT=100px WIDTH=100px src="/media/{{ record.image}}" >
-
+                            <img id="portimg" HEIGHT=120px WIDTH=120px src="/media/{{ record.image}}" onclick="scrollWin(0, 250)">
                         {% endif %}
                 {% endfor %}
             </div>
