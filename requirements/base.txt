@@ -17,7 +17,7 @@ pytz==2017.2
 requests==2.18.4
 six==1.10.0
 sqlparse==0.2.4
-urllib3==1.22
+urllib3==1.26.5
 wheel==0.24.0
 whitenoise==3.3.1
 zlib-wrapper==0.1.3
